@@ -18,9 +18,11 @@
 ## 事前アンケート
 
 お手数ですが、講座を始める前に簡単なアンケートにご協力お願いします。  
-[アンケートはこちら](https://forms.gle/nyNzhnGN9upvq2Rf6)
+[アンケートのURLはこちら](https://forms.gle/nyNzhnGN9upvq2Rf6)
+<br>
 <br>
 ![alt](first_ank.png)
+<br>
 <br>
 <br>
 [次へ](../02second/page.md)
