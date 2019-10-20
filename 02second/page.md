@@ -116,6 +116,28 @@ Pthon 3.7.3~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1
 >>> exit()
 ```
+確認できたと思います。  
+最後にNOT回路を作ります。  
+同じようにlogic.pyに追記しましょう。  
+```python
+def AND(x1, x2):
+  if x1 == 1 and x2 == 1:
+    return 1
+  else:
+    return 0
+
+def OR(x1, x2):
+  if x1 == 1 or x2 == 1:
+    return 1#入力のどちらかが1なら1を返す
+  else:
+    return 0#それ以外に0を返す
+
+  def NOT(x):
+    if x == 0:
+      return 1#入力が0のとき1を返す
+    else:
+      return 0#入力が1のとき0を返す
+```
 
 <br>
 <br>
