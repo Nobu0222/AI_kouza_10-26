@@ -6,7 +6,7 @@
 それらをもとに考えることで、結論を導きます。  
 このとき頭の中で↓のようなことが起きています。  
 ![sinapusu](https://www.jst.go.jp/pr/announce/20150122/icons/zu1.gif)
-<br><br>
+<br>
 [参考にしたURL](https://www.jst.go.jp/pr/announce/20150122/index.html)
 <br>
 人工知能は人間のこのような仕組みを模倣したものです。  
