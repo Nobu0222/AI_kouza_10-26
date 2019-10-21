@@ -165,12 +165,12 @@ XOR回路とは、入力がすべて同じなら0を返す回路です。
 なぜ複数のパーセプトロンが必要かというと、
 XORが非線形だからです。  
 OR回路をグラフで表すと、  
-![or_graph](./images/or_graph.png)
+![or_graph](./images/or_graph.PNG)
 <br>
 になります。  
 これは直線で1と0を分ける事ができるので、線形であると言えます。
 一方XORは直線で分けることができません。  
-![xor_graph](./images/xorgraph.png)
+![xor_graph](./images/xor_graph.PNG)
 <br>
 なのでパーセプトロンを複数使うことでXORを実装することになります。  
 <br>
