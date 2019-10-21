@@ -198,8 +198,12 @@ OR回路をグラフで表すと、
 ↓<br>
 ```python
 def XOR(x1, x2):
-
+  i1 = OR(x1, x2) #仮の入力を用意
+  i2 = NOT(AND(x1, x2)) #i1とi2
+  return AND(i1, i2)
 ```
+
+
 <br>
 <br>
 [前へ](../01first/page.md)・[次へ](../03third/page.md)
