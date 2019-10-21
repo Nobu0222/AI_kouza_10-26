@@ -3,7 +3,9 @@
 <br>
 
 ## AIの歴史
-ここでニューロンの説明
+![AIの歴史](http://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h28/image/n4201050.png)
+<br>
+[総務省より](http://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h28/html/nc142120.html)
 <br>
 
 ## パーセプトロン
