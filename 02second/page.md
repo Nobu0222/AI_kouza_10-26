@@ -174,7 +174,32 @@ OR回路をグラフで表すと、
 <br>
 なのでパーセプトロンを複数使うことでXORを実装することになります。  
 <br>
+![xor](./images/xor.png)
+<br>
+↑がXOR回路です。今までの回路をもとにXORをpythonで作りましょう。  
 
+↓答え<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+↓<br>
+```python
+def XOR(x1, x2):
+  
+```
 <br>
 <br>
 [前へ](../01first/page.md)・[次へ](../03third/page.md)
