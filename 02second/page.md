@@ -4,8 +4,10 @@
 
 ## AIの歴史
 ![AIの歴史](http://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h28/image/n4201050.png)
-<br>
 [総務省より](http://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h28/html/nc142120.html)
+<br>
+昔から考え方自体はあった。  
+良い計算機が出てきて学習を効率的にできる。
 <br>
 
 ## パーセプトロン
