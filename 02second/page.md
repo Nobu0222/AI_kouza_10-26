@@ -7,7 +7,7 @@
 <br>
 
 ## パーセプトロン
-![aaa](./images/perceptron.png)
+![aa](./images/perceptron.png)
 <br>
 パーセプトロンとは、複数の信号を入力として受け取り、  
 ひとつの信号を出力するもの  
@@ -198,7 +198,7 @@ OR回路をグラフで表すと、
 ↓<br>
 ```python
 def XOR(x1, x2):
-  
+
 ```
 <br>
 <br>
