@@ -174,7 +174,7 @@ OR回路をグラフで表すと、
 <br>
 なのでパーセプトロンを複数使うことでXORを実装することになります。  
 <br>
-![xor](./images/xor.png)
+![xor](./images/image823.png)
 <br>
 ↑がXOR回路です。今までの回路をもとにXORをpythonで作りましょう。  
 
