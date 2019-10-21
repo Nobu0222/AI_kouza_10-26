@@ -169,6 +169,10 @@ OR回路をグラフで表すと、
 <br>
 になります。  
 これは直線で1と0を分ける事ができるので、線形であると言えます。
+一方XORは直線で分けることができません。  
+![xor_graph](./images/xorgraph.png)
+<br>
+
 <br>
 <br>
 [前へ](../01first/page.md)・[次へ](../03third/page.md)
