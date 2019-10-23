@@ -50,6 +50,11 @@ accuracyとは正解率のことで、
 <br>
 フォルダ内にmnist_model.npzというファイルができたと思います。  
 これが学習でできた重みやバイアスが入っているファイルです。  
+<br>
+なお、mnistの70000個のデータはどこにあるかというと、  
+ローカルディスクの.chainer>dataset>pfnet>chainer>mnistにあります。  
+![mnist_npz](./images/mnist_npz.png)
+<br>
 
 ## 判定
 次は実際に自分で手書き数字を描いて判定してみましょう。  
