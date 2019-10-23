@@ -12,7 +12,7 @@
 学習の前に先程のニューラルネットワークを見てみましょう。  
 フォルダ内のNN.pyをメモ帳で開いてみましょう。  
 ```python
-import chainer
+import chainer #機械学習で使うライブラリ
 from chainer import Chain
 import chainer.links as L
 import chainer.functions as F
@@ -21,9 +21,9 @@ import chainer.functions as F
 class DNN(Chain):
     def __init__(self):
         super(DNN, self).__init__(
-            l1 = L.Linear(784,256),
+            l1 = L.Linear(784,256), #28x28=784
             l2 = L.Linear(256,128),
-            l3 = L.Linear(128,10)
+            l3 = L.Linear(128,10) #出力は0から9の10
         )
     def forward(self,x):
         h1 = F.relu(self.l1(x))
@@ -31,6 +31,9 @@ class DNN(Chain):
         h3 = self.l3(h2)
         return h3
 ```
+mnistの画像は28x28なので、入力を784個にします。  
+出力は0から9の10種類なので、出力は10個です。  
+
 では学習しましょう。  
 
 ```
