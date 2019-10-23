@@ -23,6 +23,8 @@
 <br>
 ![alt](first_ank.png)
 <br>
+↑QRコードです
+<br>
 <br>
 <br>
 [次へ](../02second/page.md)

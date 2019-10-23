@@ -6,6 +6,7 @@
 ![AIの歴史](http://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h28/image/n4201050.png)
 [総務省より](http://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h28/html/nc142120.html)
 <br>
+<br>
 昔から考え方自体はあった。  
 最近はインターネットの普及により、データを集めやすくなった。  
 良い計算機が出てきて学習を効率的にできる。  
@@ -14,16 +15,18 @@
 ## パーセプトロン
 ![aa](./images/perceptron.png)
 <br>
+<br>
 パーセプトロンとは、複数の信号を入力として受け取り、  
-ひとつの信号を出力するもの  
+ひとつの信号を出力するもの。  
 脳のニューロンを模しています。
 <br>
 
 ## 重み
 ![omomi](./images/omomibias.png)
 <br>
+<br>
 重みとは入力の値に掛け算をするものです。  
-機械学習とはこの値を決定していくものと考えておｋ。  
+入力の特徴を強くする。  
 ↓上の図を式にしたもの  
 ![weight](./images/weight.png)
 <br>
@@ -34,8 +37,7 @@ y:出力 w:重み x:入力 b:バイアス(底上げ)
 ![mlp](./images/mlp.png)
 <br>
 パーセプトロンを複数にしたもの。マルチパーセプトロンともいう。  
-出力層には活性化関数がある。活性化関数とは、  
-説明書いておく予定
+複雑な計算ができる。  
 <br>
 
 ## 実際にニューラルネットワークを作ろう
