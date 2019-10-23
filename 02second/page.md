@@ -50,7 +50,8 @@ y:出力 w:重み x:入力 b:バイアス(底上げ)
 <br>
 ![ronri](./images/ronnri.png)
 <br>
-ではコマンドプロンプトを開きましょう。homeボタンを押して、cmdと入力してEnterキーを押しましょう。  
+ではコマンドプロンプトを開きましょう。  
+homeボタンを押して、cmdと入力してEnterキーを押しましょう。  
 場所を移動しましょう。cd Desktop で作業の場所をデスクトップにします。  
 ```
 C:\User>cd Desktop\
