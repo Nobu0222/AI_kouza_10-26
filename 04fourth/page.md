@@ -51,12 +51,31 @@ accuracyとは正解率のことで、
 フォルダ内にmnist_model.npzというファイルができたと思います。  
 これが学習でできた重みやバイアスが入っているファイルです。  
 
-
 ## 判定
 次は実際に自分で手書き数字を描いて判定してみましょう。  
 フォルダ内のGimPPortableを開いてGIMPPortable.exeを起動しましょう。  
 ![gimpexe](./images/gimpexe.png)
 <br>
+![exe](./images/exe.png)
+<br>
+ファイルの新しい画像の生成をクリックしてください。  
+![settei](./images/setei.png)
+<br>
+幅と高さをmnistのデータに合わせて変更します。  
+詳細設定をクリックして色空間をグレースケールに、  
+コメントは消しましょう。  
+![size](./images/size.PNG)
+ペンを選んでsizeを3.0にします。  
+書いてみましょう。  
+![0](./images/0.png)
+<br>
+描いたらCtrl + Shift + E を押してください。  
+![export](./images/export.png)
+<br>
+フォルダ内のtest_dataを選択し、ファイル名を描いた数字.pngにして  
+エクスポートします。  
+これを0から9まで書きましょう。  
+
 
 <br>
 [前へ](../03third/page.md)・[次へ](../05fin/page.md)
