@@ -80,6 +80,18 @@ accuracyとは正解率のことで、
 フォルダ内のtest_dataを選択し、ファイル名を描いた数字.pngにして  
 エクスポートします。  
 これを0から9まで書きましょう。  
+完了したら、コマンドでkouza_test.pyを実行しましょう。  
+```
+C:\User\Desktop\kouza10-26>python kouza_test.py
+test file = 0.png , label = 0,test result = 0,OK
+test file = 1.png , label = 1,test result = 7,NG
+test file = 2.png , label = 2,test result = 3,NG
+..........
+OK 3,NG 6,Total 10
+accurcy: 30.0%
+```
+判定が出たと思います。  
+恐らく正解率は低いと思います。  
 
 
 <br>
