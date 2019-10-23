@@ -9,7 +9,30 @@
 ![mnist](./images/mnist.PNG)
 <br>
 この画像は一つ一つ28x28の2値化処理されたものになっています。  
+学習の前に先程のニューラルネットワークを見てみましょう。  
+フォルダ内のNN.pyをメモ帳で開いてみましょう。  
+```python
+import chainer
+from chainer import Chain
+import chainer.links as L
+import chainer.functions as F
+
+# DNN class
+class DNN(Chain):
+    def __init__(self):
+        super(DNN, self).__init__(
+            l1 = L.Linear(784,256),
+            l2 = L.Linear(256,128),
+            l3 = L.Linear(128,10)
+        )
+    def forward(self,x):
+        h1 = F.relu(self.l1(x))
+        h2 = F.relu(self.l2(h1))
+        h3 = self.l3(h2)
+        return h3
+```
 では学習しましょう。  
+
 ```
 C:\User\Desktop\kouza10-26>python kouza_train.py
 epoch: 1, loss: 0.8464616...
@@ -25,6 +48,7 @@ accuracyとは正解率のことで、
 <br>
 フォルダ内にmnist_model.npzというファイルができたと思います。  
 これが学習でできた重みやバイアスが入っているファイルです。  
+
 
 ## 判定
 
