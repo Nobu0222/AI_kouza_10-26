@@ -3,6 +3,7 @@
 <br>
 
 ## AIの歴史
+<br>
 ![AIの歴史](http://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h28/image/n4201050.png)
 [総務省より](http://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h28/html/nc142120.html)
 <br>
@@ -13,8 +14,8 @@
 <br>
 
 ## パーセプトロン
-![aa](./images/perceptron.png)
 <br>
+![aa](./images/perceptron.png)
 <br>
 パーセプトロンとは、複数の信号を入力として受け取り、  
 ひとつの信号を出力するもの。  
@@ -22,8 +23,8 @@
 <br>
 
 ## 重み
-![omomi](./images/omomibias.png)
 <br>
+![omomi](./images/omomibias.png)
 <br>
 重みとは入力の値に掛け算をするものです。  
 入力の特徴を強くする。  
@@ -34,6 +35,7 @@ y:出力 w:重み x:入力 b:バイアス(底上げ)
 <br>
 
 ## ニューラルネットワーク
+<br>
 ![mlp](./images/mlp.png)
 <br>
 パーセプトロンを複数にしたもの。マルチパーセプトロンともいう。  
@@ -45,6 +47,7 @@ y:出力 w:重み x:入力 b:バイアス(底上げ)
 論理回路とは、複数の入力の値からひとつの出力を出すものです。  
 上のパーセプトロンと同じ感じがします。  
 身近なもので、照明のスイッチがあげられます。  
+<br>
 ![ronri](./images/ronnri.png)
 <br>
 ではコマンドプロンプトを開きましょう。homeボタンを押して、cmdと入力してEnterキーを押しましょう。  
@@ -167,6 +170,7 @@ Pthon 3.7.3~~~~~~~~~~~~~~~~~~~~~~~~~~~
 論理回路でも複数の回路を組み合わせて  
 作ることができる回路があります。  
 XOR回路とは、入力がすべて同じなら0を返す回路です。  
+<br>
 ![xor](./images/xor_1.png)
 <br>
 なぜ複数のパーセプトロンが必要かというと、
@@ -175,7 +179,7 @@ OR回路をグラフで表すと、
 ![or_graph](./images/orgraph.png)
 <br>
 になります。  
-これは直線で1と0を分ける事ができるので、線形であると言えます。
+これは直線で1と0を分ける事ができるので、線形であると言えます。  
 一方XORは直線で分けることができません。  
 ![xor_graph](./images/xor_graph.PNG)
 <br>
