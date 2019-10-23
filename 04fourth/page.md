@@ -33,7 +33,6 @@ class DNN(Chain):
 ```
 mnistの画像は28x28なので、入力を784個にします。  
 出力は0から9の10種類なので、出力は10個です。  
-
 では学習しましょう。  
 
 ```
@@ -54,6 +53,10 @@ accuracyとは正解率のことで、
 
 
 ## 判定
+次は実際に自分で手書き数字を描いて判定してみましょう。  
+フォルダ内のGimPPortableを開いてGIMPPortable.exeを起動しましょう。  
+![gimpexe](./images/gimpexe.png)
+<br>
 
 <br>
 [前へ](../03third/page.md)・[次へ](../05fin/page.md)
