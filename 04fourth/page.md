@@ -74,6 +74,7 @@ OK = 8 | NG = 2 | accuarcy = 80.0%
 そこそこ高い正解率を得られたと思います。  
 これでこの章は終わります。  
 実際に数字の判別をすることができました。  
+[参考にしたサイト](https://qiita.com/moritalous/items/1c014afbb97a2e48bbdf)
 
 <br>
 [前へ](../03third/page.md)・[次へ](../05fin/page.md)
