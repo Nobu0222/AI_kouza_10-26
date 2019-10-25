@@ -6,6 +6,11 @@
 ## 事後アンケート
 本日は講座にご参加いただきありがとうございました。  
 最後に事後アンケートにご協力おねがいします。  
+[アンケートはこちら](https://forms.gle/U593nFjjSk4zqwH4A)
+<br>
+![ankate](./images/ankate_owari.png)
+<br>
+↑QRコードです  
 <br>
 [前へ](../04fourth/page.md)
 <br>
