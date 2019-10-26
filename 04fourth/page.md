@@ -6,7 +6,9 @@
 0から9までの画像に正解の情報をつけて学習します。  
 学習に用いるデータはmnistという0から9の画像の集まりです。  
 数は学習用の60000個と、検証用の10000個です。  
+<br>
 ![mnist](./images/mnist.PNG)
+<br>
 <br>
 この画像は一つ一つ28x28のグレースケールに加工されたものになっています。  
 mnistの画像は28x28なので、入力を784個にします。  
@@ -28,6 +30,7 @@ accuracyとは正解率のことで、
 <br>
 ![model](./images/mnsit_model.png)
 <br>
+<br>
 フォルダ内にmnist_model.h5というファイルができたと思います。  
 これが学習でできた重みやバイアスが入っているファイルです。  
 <br>
@@ -38,24 +41,34 @@ accuracyとは正解率のことで、
 ## 判定
 次は実際に自分で手書き数字を描いて判定してみましょう。  
 フォルダ内のGimPPortableを開いてGIMPPortable.exeを起動しましょう。  
+<br>
 ![gimpexe](./images/gimpexe.png)
+<br>
 <br>
 ![exe](./images/exe.png)
 <br>
+<br>
 ファイルの新しい画像の生成をクリックしてください。  
+<br>
 ![settei](./images/setei.png)
+<br>
 <br>
 幅と高さをmnistのデータに合わせて変更します。  
 詳細設定をクリックして色空間をグレースケールに、  
 コメントは消しましょう。  
+<br>
 ![size](./images/size.PNG)
+<br>
 <br>
 ペンを選んでsizeを4.0にします。  
 書いてみましょう。  
+<br>
 ![0](./images/0.png)
 <br>
 描いたらCtrl + Shift + E を押してください。  
+<br>
 ![export](./images/export.png)
+<br>
 <br>
 フォルダ内のtest_dataを選択し、ファイル名を描いた数字.pngにして  
 エクスポートします。  
