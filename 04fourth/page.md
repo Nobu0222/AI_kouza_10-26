@@ -31,7 +31,6 @@ accuracyとは正解率のことで、
 <br>
 なお、mnistの70000個のデータはどこにあるかというと、  
 ローカルディスクのuser/.keras/datasetにあります。  
-![mnist_npz](./images/mnist_npz.png)
 <br>
 
 ## 判定
