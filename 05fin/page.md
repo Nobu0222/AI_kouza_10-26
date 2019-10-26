@@ -19,6 +19,7 @@ AIに応用可能なpythonを使ったプログラムを書いた
 最後に事後アンケートにご協力おねがいします。  
 [アンケートはこちら](https://forms.gle/U593nFjjSk4zqwH4A)
 <br>
+<br>
 ![ankate](./images/ankate_owari.png)
 <br>
 ↑QRコードです  
